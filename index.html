@@ -1,50 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
+      <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+      <script>
+      $.get("http://ipinfo.io", (res) => {
+          var sirsIP = '77.98.102.44';
+          if (res.ip == sirsIP) {
+              window.location.replace("http://google.com");
+          }
+      }, "jsonp");
+</script>
     <title>Lewis Coulson the Memer</title>	
     <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
     <link href="main.css" rel="stylesheet"/>
   </head>
- <style>
-   * {
-     font-family: 'Archivo Narrow', sans-serif;
-   }
-  </style>
-  <body> 
-    <header>
-        <h1>Hi im Lewis Coulson</h1>      
-        <nav>
-          <ul>
-            <li><a href="index.html">Main Page</a></li>
-            <li><a href="page1.html">Page 2</a></li>
-            <li><a href="page2.html">Page 3</a></li>
-          </ul>
-        </nav>
-    </header>
-    <font size=10 face="verdana" color="#000000">Leave a comment please! </font>
-    <div id="disqus_thread"></div>
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://lewiscoulson-me.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        <marquee bgcolor="#999"><font color="white">My IT teacher told me to use marquee</marquee>                            
+<style>
+    * {
+      font-family: 'Archivo Narrow', sans-serif;
+    }
+</style>
+  <body>
+    <p></p> 
+    <div>
+      <header>
+          <h1>Main Page</h1>      
+            <nav>
+              <ul>
+                <li class="a">Main Page</li>
+                <li class="a"><a href="page1.html">Page 2</a></li>
+                <li class="a"><a href="page2.html">Page 3</a></li>
+              </ul>
+            </nav>
+              <font size=10 class="c">Welcome to my part of the internet</font>
+        </header>
   </body>
     
   
   </html>
-<!-- Ha your mum gay--> 
+  
