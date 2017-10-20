@@ -1,4 +1,44 @@
 body {
-background:#999;
-  font: helvetica;
+background: #cecece;
+	font: helvetica;
+		color: #222;
+}
+header {
+	padding: 0px 0px 0px 15px;
+
+	;
+}
+li {
+	display: inline;
+	padding: 10px 10px 10px 0px;
+}
+a {
+	color: #666;
+	text-decoration: none
+}
+h1 {
+	padding: 0px 0px 0px 10px;
+}
+.disqus {
+	padding: 0px 0px 100px 0px
+}
+.a {
+	border: 3px solid #6069ff;
+	padding: 10px;
+	background: #84b3ff;
+	color: white;
+}
+a:hover {
+	color: #333;
+}
+img {
+	display: center;
+}
+.b {
+	line-height: 250%;
+	text-align: center;
+	padding: 0px 100px 0px 0px;
+}
+.c {
+	text-align: center;
 }
